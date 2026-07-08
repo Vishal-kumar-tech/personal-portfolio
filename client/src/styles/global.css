@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.dark{
+    background-color: #0f172a;
+    color: white;
+    min-height: 100vh;
+    transition: 0.4s;
+}
+
+.light{
+background-color: #f8fafc;
+color: black;
+min-height: 100vh;
+transition: 0.4s;
+}
+
+.light nav{
+  background-color: white;
+}
+
+.light .skill-card,
+.light .project-card,
+.light .contact input,
+.light .contact textarea{
+  background-color: #e2e8f0;
+  color: black;
+}
+
+.dark nav{
+  background-color: #0f172a;
+}
+
+.dark .skill-card,
+.dark .project-card,
+.dark .contact input,
+.dark .contact textarea{
+  background-color: #1e293b;
+  color: white;
+}
