@@ -30,7 +30,8 @@ function App(){
     backgroundColor: darkMode ? "#0f172a" : "white",
     color: darkMode ? "white" : "black",
     minHeight: "100vh",
-    transition: "0.4s"
+    transition: "0.4s",
+    overflowX: "hidden"
   }}
 > 
 
